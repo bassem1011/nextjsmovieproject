@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head></head>
-      <body style={{ fontFamily: "Poppins, sans-serif" }}>
+      <body>
         <WishlistProvider>
           <Navbar />
           <main className="container py-4">{children}</main>
